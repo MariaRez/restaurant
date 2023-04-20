@@ -1,0 +1,52 @@
+:root {
+    --main-color: #040404;
+    --main-text-color: #FFFFFF;
+    --heading-color: #DCCA87;
+    --text-color: #AAAAAA;
+    --button-color: #0C0B08;
+}
+
+.body {
+    background-color: var(--main-color);
+}
+
+.h1 {
+    font-family: 'Cormorant Upright', serif;
+    color: var(--heading-color);
+}
+
+.p {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--heading-color);
+}
+
+/* размеры для текстовых элементов */
+.text_size_xs {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.text_size_s {
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.text_size_m {
+    font-size: 23px;
+    line-height: 30px;
+}
+
+.text_size_l {
+    font-size: 44px;
+    line-height: 57px;
+}
+
+.text_size_xl {
+    font-size: 64px;
+    line-height: 83px;
+}
+
+.text_size_xxl {
+    font-size: 90px;
+    line-height: 117px;
+}
