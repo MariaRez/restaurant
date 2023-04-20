@@ -1,3 +1,4 @@
+/* изначальные стили прописаны для размера экрана 1920 */
 :root {
     --main-color: #040404;
     --main-text-color: #FFFFFF;
@@ -6,18 +7,25 @@
     --button-color: #0C0B08;
 }
 
-.body {
+body {
     background-color: var(--main-color);
 }
 
-.h1 {
-    font-family: 'Cormorant Upright', serif;
-    color: var(--heading-color);
+h1, h2, h3, h4, h5, h6, p, ul, button {
+    margin: 0;
+    padding: 0;
 }
 
-.p {
+ul {
+    list-style: none;
+}
+/* шрифты google */
+.main-font {
+    font-family: 'Cormorant Upright', serif;
+}
+
+.additional-font {
     font-family: 'Open Sans', sans-serif;
-    color: var(--heading-color);
 }
 
 /* размеры для текстовых элементов */
@@ -49,4 +57,88 @@
 .text_size_xxl {
     font-size: 90px;
     line-height: 117px;
+}
+
+/* стили для разного текста */
+.big-header {
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--heading-color);
+    margin-bottom: 32px;
+}
+
+.small-header {
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--main-text-color);
+}
+
+.description {
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    color: var(--text-color);
+    margin-bottom: 32px;
+}
+
+/* индивидуальные стили элементов */
+.header {
+    padding: 0 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--main-text-color);
+}
+
+.logo {
+    width: 199px;
+    height: 57px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.preview {
+    margin: 95px 310px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rigth-column {
+    max-width: 455px;
+}
+
+.main-pic {
+    width: 667px;
+}
+
+.small-img {
+    width: 40px;
+}
+
+.button {
+    border: none;
+    background-color: var(--heading-color);
+    width: 157px;
+    height: 44px;
 }
