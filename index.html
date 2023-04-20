@@ -1,53 +1,96 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant</title>
-    <link href="./index.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link href="./index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@600;700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header class="header text_size_xs additional-font">
-        <img class="logo" src="/images/Logo.svg" alt="Логотип">
-        <nav>
-            <ul class="menu">
-                <li>Home</li>
-                <li>Pages</li>
-                <li>Contact Us</li>
-                <li>Blog</li>
-                <li>Landing</li>
-            </ul>
-        </nav>
-        <div class="links">
-            <p>Log in / Registration</p>
-            <p>Book table</p>
-        </div>
+      <img class="logo" src="/images/Logo.svg" alt="Логотип" />
+      <nav>
+        <ul class="menu">
+          <li>Home</li>
+          <li>Pages</li>
+          <li>Contact Us</li>
+          <li>Blog</li>
+          <li>Landing</li>
+        </ul>
+      </nav>
+      <div class="links">
+        <p>Log in / Registration</p>
+        <p>Book table</p>
+      </div>
     </header>
-    <main>
-        <section class="preview">
-            <div class="rigth-column">
-                <h4 class="small-header main-font text_size_m">Chase the new Flavour</h4>
-                <img class="small-img" src="/images/spoon.svg" alt="Ложка">
-                <h1 class="big-header main-font text_size_xxl">The key to Fine dining</h1>
-                <p class="description additional-font text_size_xs">Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus</p>
-                <button class="button text_size_xs main-font">Explore Menu</button>
-            </div>
-            <img class="main-pic" src="/images/main-pic.png" alt="Главное изображение">
-            <!-- <img src="/images/Scroll.svg" alt=""> -->
-        </section>
+    <main class="main">
+      <section class="preview">
+        <div class="rigth-column">
+          <h4 class="small-header main-font text_size_m">
+            Chase the new Flavour
+          </h4>
+          <img class="small-img" src="/images/spoon.svg" alt="Ложка" />
+          <h1 class="big-header main-font text_size_xxl">
+            The key to Fine dining
+          </h1>
+          <p class="description additional-font text_size_xs">
+            Sit tellus lobortis sed senectus vivamus molestie. Condimentum
+            volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
+            aliquam amet tellus
+          </p>
+          <button class="button text_size_xs main-font">Explore Menu</button>
+        </div>
+        <img
+          class="main-pic"
+          src="/images/main-pic.png"
+          alt="Главное изображение"
+        />
+        <!-- <img src="/images/Scroll.svg" alt=""> -->
+      </section>
+      <section class="reservations">
+        <h4 class="small-header main-font text_size_m">Reservations</h4>
+        <img class="small-img" src="/images/spoon.svg" alt="Ложка" />
+        <h2 class="medium-header main-font text_size_xl">Book A Table</h2>
+        <form class="form">
+          <div class="booking">
+            <select class="booking-elements">
+              <option>1 person</option>
+              <option>2 persons</option>
+              <option>3 persons</option>
+              <option>4 persons</option>
+              <option>5 persons</option>
+              <option>6 persons</option>
+              <option>7 persons</option>
+              <option>8 persons</option>
+            </select>
+            <select class="booking-elements">
+              <option>Today</option>
+              <option>Tomorrow</option>
+            </select>
+            <select class="booking-elements">
+              <option>11:00 AM</option>
+              <option>12:00 AM</option>
+              <option>13:00 AM</option>
+              <option>14:00 AM</option>
+              <option>15:00 AM</option>
+              <option>16:00 AM</option>
+              <option>17:00 AM</option>
+              <option>18:00 AM</option>
+              <option>19:00 AM</option>
+              <option>20:00 AM</option>
+              <option>21:00 AM</option>
+            </select>
+          </div>
+          <button class="button text_size_xs main-font">Book Now</button>
+        </form>
+      </section>
     </main>
-
-
-    <!-- <div>
-        <p>#Gericht</p>
-        <p>#Bar</p>
-    </div> -->
-
-
-
-</body>
+  </body>
 </html>
