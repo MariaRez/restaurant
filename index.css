@@ -76,7 +76,6 @@ ul {
     letter-spacing: 0.03em;
     text-transform: capitalize;
     color: var(--heading-color);
-    margin-bottom: 64px;
 }
 
 .small-header {
@@ -112,6 +111,15 @@ ul {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.logo-back {
+    position: absolute;
+    width: 391px;
+    height: 415px;
+    left: 40%;
+    bottom: 280px;
+    z-index: 0;
 }
 
 .menu {
@@ -155,11 +163,21 @@ ul {
     margin: 8px 0;
 }
 
+.small-img_rigth {
+    transform: rotate(-180deg);
+}
+
 .button {
     border: none;
     background-color: var(--heading-color);
     width: 157px;
     height: 44px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--main-text-color);
+    color: var(--main-color);
 }
 
 .reservations {
@@ -170,6 +188,10 @@ ul {
     flex-direction: column;
     align-items: center;
     border: 1px solid rgba(220, 202, 135, 0.2);
+}
+
+.reservation-header {
+    margin-bottom: 64px;
 }
 
 .form {
@@ -194,4 +216,45 @@ ul {
     color: var(--text-color);
     appearance: none;
     padding: 16px;
+}
+
+.about {
+    width: 100%;
+    padding: 339px 0 328px;
+    background-image: url(/images/BG.png);
+    position: relative;
+}
+
+.about-columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 254px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.rigth-column {
+    align-items: end;
+    z-index: 1;
+}
+
+.left-column {
+    align-items: start;
+    position: relative;
+}
+
+.left-column::before {
+    content: url(/images/knife.svg);
+    position: absolute;
+    left: -180px;
+    top: -180px;
+}
+
+.about-description {
+    max-width: 523px;
+    padding-top: 24px;
 }
