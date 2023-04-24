@@ -54,6 +54,11 @@ ul {
   line-height: 30px;
 }
 
+.text_size_sm {
+    font-size: 32px;
+    line-height: 42px;
+}
+
 .text_size_l {
   font-size: 44px;
   line-height: 57px;
@@ -110,6 +115,21 @@ ul {
   margin-bottom: 32px;
 }
 
+.italic-description {
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--text-color);
+  max-width: 570px;
+  margin: 64px 0;
+}
+
+.italic-description::before {
+    content: url(/images/quotes.svg);
+    width: 47px;
+    height: 40px;
+}
+
 /* индивидуальные стили элементов */
 .header {
   padding: 0 120px;
@@ -139,18 +159,23 @@ ul {
 }
 
 .small-logo {
-    position: absolute;
+  position: absolute;
 }
 
 .small-logo_reservation {
-    top: -225px;
-    right: -125px;
+  top: -225px;
+  right: -125px;
 }
 
 .small-logo_see-menu {
-    z-index: 10;
-    left: 145px;
-    top: -32px;
+  z-index: 10;
+  left: 145px;
+  top: -32px;
+}
+
+.small-logo_about-chef {
+    right: 287px;
+    bottom: -60px;
 }
 
 .menu {
@@ -392,4 +417,38 @@ ul {
 
 .position-description {
   margin-bottom: 41.5px;
+}
+
+.about-chef {
+  margin: 152px 0;
+  padding: 128px 310px;
+  box-sizing: border-box;
+  width: 100%;
+  background-image: url(/images/BG.png);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 96px;
+  position: relative;
+}
+
+.chef-image {
+  width: 586px;
+}
+
+.chef-name {
+    font-weight: 400;
+}
+
+.about-chef-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.chef-description {
+    margin: 8px 0 64px;
+}
+
+.chef-sing {
+    width: 235px;
 }
