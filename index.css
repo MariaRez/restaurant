@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6, p, ul, button {
 ul {
     list-style: none;
 }
+
 /* шрифты google */
 .main-font {
     font-family: 'Cormorant Upright', serif;
@@ -67,7 +68,14 @@ ul {
     letter-spacing: 0.04em;
     text-transform: capitalize;
     color: var(--heading-color);
-    margin-bottom: 32px;
+}
+
+.large-header {
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--main-text-color);
 }
 
 .medium-header {
@@ -148,6 +156,10 @@ ul {
     flex-direction: row;
     justify-content: space-between;
     gap: 180px;
+}
+
+.preview-header {
+    margin-bottom: 32px;
 }
 
 .rigth-column {
@@ -301,4 +313,60 @@ ul {
     text-decoration: underline;
     text-decoration-style: solid;
     text-decoration-thickness: 3px;
+}
+
+.special {
+    margin-top: 152px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.special-header {
+    margin-bottom: 64px;
+}
+
+.specials {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    height: 659px;
+    max-width: 1300px;
+    column-gap: 32px;
+    margin-bottom: 65px;
+}
+
+.specials-description {
+    width: 412px;
+}
+
+.specials-description-header {
+    margin-bottom: 48px;
+}
+
+.position {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 32px;
+    row-gap: 8px;
+    flex-wrap: wrap;
+}
+
+.position-header {
+    width: 192px;
+    text-align: start;
+}
+
+.position-line {
+    background-color: var(--main-text-color);
+    height: 1px;
+    width: 119px;
+}
+
+.position-description {
+    margin-bottom: 41.5px;
 }
