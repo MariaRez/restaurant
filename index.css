@@ -181,7 +181,7 @@ ul {
 }
 
 .reservations {
-    margin-top: 205px;
+    margin: 205px 0 184px;
     padding: 48px 32px;
     width: 72%;
     display: flex;
@@ -203,6 +203,8 @@ ul {
 .booking {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 32px;
     margin-bottom: 64px;
 }
@@ -257,4 +259,46 @@ ul {
 .about-description {
     max-width: 523px;
     padding-top: 24px;
+}
+
+.see-menu {
+    width: 100%;
+    height: 920px;
+    background-image: url(/images/glass.png);
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--button-color);
+    opacity: 0.4;
+    z-index: 0;
+}
+
+.see-menu__list {
+    width: 525px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 261px 0 262px 145px;
+    color: var(--main-text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.see-menu__item {
+    cursor: pointer;
+    text-decoration: none;
+    transition: text-decoration-line 1s ease-in;
+    z-index: 10;
+}
+
+.see-menu__item:hover {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
 }
