@@ -521,3 +521,49 @@ ul {
 .customers-photo-name {
   margin: 16px 0 4px;
 }
+
+.our-laurels {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 128px 310px 226px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.our-laurels-description {
+  min-width: 634px;
+  padding: 120px 0;
+}
+
+.our-laurels-main-img {
+  width: 555px;
+  height: 691px;
+}
+
+.awards {
+  margin-top: 64px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 32px;
+  row-gap: 64px;
+}
+
+.awards-item {
+  width: 301px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 32px;
+}
+
+.awards-item-image {
+  width: 79px;
+  height: 79px;
+}
+
+.awards-description {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
