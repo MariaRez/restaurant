@@ -115,6 +115,10 @@ ul {
   margin-bottom: 32px;
 }
 
+.no-bottom {
+  margin-bottom: 0;
+}
+
 .medium-description {
   font-style: normal;
   font-weight: 400;
@@ -157,6 +161,14 @@ ul {
 .logo {
   width: 199px;
   height: 57px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.big-logo {
+  width: 289px;
+  height: 83px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -565,5 +577,57 @@ ul {
 
 .awards-description {
   margin-top: 8px;
-  margin-bottom: 0;
+}
+
+.footer {
+  margin: 0 auto;
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: 1fr 438px 1fr;
+  grid-template-rows: 83px 143px 230px;
+  column-gap: 126px;
+  row-gap: 24px;
+  justify-items: center;
+  align-items: end;
+}
+
+.footer-info {
+  text-align: center;
+  align-self: flex-start;
+}
+
+.footer-info-first {
+  margin-bottom: 8px;
+}
+
+.social-media-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  row-gap: 10px;
+}
+
+.social-media-items {
+  display: flex;
+  column-gap: 19px;
+}
+
+.social-media-item {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-hours {
+  max-width: 158px;
+}
+
+.footer-hours:last-of-type {
+  margin-top: 8px;
+}
+
+.footer-copyrigth {
+  grid-column: 2 / 3;
+  grid-row: 3 /4;
+  padding: 58px 0 144px;
 }
