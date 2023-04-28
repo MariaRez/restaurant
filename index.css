@@ -10,6 +10,7 @@
 
 body {
   background-color: var(--main-color);
+  position: relative;
 }
 
 h1,
@@ -214,6 +215,31 @@ ul {
   flex-direction: row;
   justify-content: space-between;
   gap: 100px;
+}
+
+.nav {
+  font-weight: 400;
+  position: absolute;
+  top: 400px;
+  left: 120px;
+  width: 161px;
+  transform: rotate(-90deg);
+  z-index: 10;
+}
+
+.nav-items {
+  display: flex;
+  gap: 40px;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
 }
 
 .main {
