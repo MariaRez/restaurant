@@ -223,12 +223,14 @@ ul {
 }
 
 .preview {
-  margin-top: 95px;
-  padding: 0 310px;
+  max-width: 1920px;
+  box-sizing: border-box;
+  padding: 95px 310px 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   gap: 180px;
+  position: relative;
 }
 
 .preview-header {
@@ -241,6 +243,13 @@ ul {
 
 .main-pic {
   width: 667px;
+}
+
+.scroll-images {
+  position: absolute;
+  right: 120px;
+  bottom: -64px;
+  z-index: 10;
 }
 
 .small-img {
