@@ -286,6 +286,10 @@ ul {
   align-items: center;
 }
 
+.form_row {
+  flex-direction: row;
+}
+
 .booking {
   display: flex;
   flex-direction: row;
@@ -577,6 +581,45 @@ ul {
 
 .awards-description {
   margin-top: 8px;
+}
+
+.newsletter {
+  margin: 241px 0 128px;
+  padding: 64px 0;
+  width: 72%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border: 1px solid rgba(220, 202, 135, 0.2);
+}
+
+.newsletter-span {
+  font-weight: 400;
+  margin: 24px 0 64px;
+}
+
+.input_email {
+  box-sizing: border-box;
+  width: 635px;
+  height: 60px;
+  margin-right: 32px;
+  padding: 16px 19px;
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+}
+
+.button-newsletter {
+  border: none;
+  background-color: var(--heading-color);
+  width: 129px;
+  height: 44px;
+  cursor: pointer;
+}
+
+.button-newsletter:hover {
+  background-color: var(--main-text-color);
+  color: var(--main-color);
 }
 
 .footer {
