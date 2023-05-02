@@ -182,10 +182,16 @@ ul {
   left: 40%;
   bottom: 280px;
   z-index: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .small-logo {
   position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .small-logo_reservation {
@@ -274,18 +280,37 @@ ul {
 
 .main-pic {
   width: 667px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .scroll-images {
   position: absolute;
+  z-index: 10;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.scroll-images_to_menu {
   right: 120px;
   bottom: -64px;
-  z-index: 10;
+  width: 61px;
+  height: 113px;
+}
+
+.scroll-images_to_top {
+  right: -158px;
+  bottom: -49px;
 }
 
 .small-img {
   width: 40px;
   margin: 8px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .small-img_rigth {
@@ -395,6 +420,9 @@ ul {
   height: 920px;
   background-image: url(/images/glass.png);
   position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .overlay {
@@ -494,6 +522,9 @@ ul {
   box-sizing: border-box;
   width: 100%;
   background-image: url(/images/BG.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
