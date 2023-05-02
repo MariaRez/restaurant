@@ -151,7 +151,9 @@ ul {
 
 /* подчеркнутые снизу элементы */
 
-.blogs-item-header, .see-menu__item:hover, .nav-item:hover {
+.blogs-item-header,
+.see-menu__item:hover,
+.nav-item:hover {
   text-decoration: underline;
   text-decoration-style: solid;
   text-decoration-thickness: 3px;
@@ -745,7 +747,12 @@ ul {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(207.55deg, rgba(0, 0, 0, 0.75) 1.5%, rgba(0, 0, 0, 0.64) 98.62%), linear-gradient(0deg, rgba(220, 202, 135, 0.2), rgba(220, 202, 135, 0.2));
+  background: linear-gradient(
+      207.55deg,
+      rgba(0, 0, 0, 0.75) 1.5%,
+      rgba(0, 0, 0, 0.64) 98.62%
+    ),
+    linear-gradient(0deg, rgba(220, 202, 135, 0.2), rgba(220, 202, 135, 0.2));
   display: flex;
   justify-content: center;
   align-items: center;
