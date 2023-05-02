@@ -204,6 +204,11 @@ ul {
   bottom: -60px;
 }
 
+.small-logo_newsletter {
+  top: -204px;
+  left: -172px;
+}
+
 .menu {
   display: flex;
   flex-direction: row;
