@@ -148,6 +148,14 @@ ul {
   height: 40px;
 }
 
+/* подчеркнутые снизу элементы */
+
+.blogs-item-header, .see-menu__item:hover, .nav-item:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
+}
+
 /* индивидуальные стили элементов */
 .header {
   padding: 0 120px;
@@ -245,12 +253,6 @@ ul {
 
 .nav-item {
   cursor: pointer;
-}
-
-.nav-item:hover {
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-thickness: 3px;
 }
 
 .main {
@@ -454,12 +456,6 @@ ul {
   z-index: 10;
 }
 
-.see-menu__item:hover {
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-thickness: 3px;
-}
-
 .special {
   margin-top: 152px;
   display: flex;
@@ -652,6 +648,53 @@ ul {
 
 .awards-description {
   margin-top: 8px;
+}
+
+.blogs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blogs-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 32px;
+  row-gap: 32px;
+  max-width: 1300px;
+  margin-bottom: 64px;
+}
+
+.blogs-item {
+  max-width: 412px;
+}
+
+.blogs-item-img {
+  width: 412px;
+  height: 430px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.blogs-item-sing {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0 32px;
+}
+
+.blogs-item-header {
+  margin-bottom: 32px;
+}
+
+.blogs-item-link {
+  text-transform: none;
+  cursor: pointer;
+}
+
+.blogs-item-link:hover {
+  color: var(--main-color);
 }
 
 .newsletter {
