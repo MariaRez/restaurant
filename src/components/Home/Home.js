@@ -1,9 +1,9 @@
 import Aside from '../Aside/Aside';
 import Header from '../Header/Header';
 import Footer from '../Footer/Footer';
-import './RestaurantHome.css';
+import './Home.css';
 
-function RestaurantHome() {
+function Home() {
   return (
     <>
       <Header />
@@ -13,4 +13,4 @@ function RestaurantHome() {
   );
 }
 
-export default RestaurantHome;
+export default Home;
