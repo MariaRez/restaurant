@@ -157,3 +157,59 @@ ul {
   text-decoration-style: solid;
   text-decoration-thickness: 3px;
 }
+
+/* логотипы и прочее */
+.big-logo {
+  width: 289px;
+  height: 83px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.logo-back {
+  position: absolute;
+  width: 391px;
+  height: 415px;
+  left: 40%;
+  bottom: 280px;
+  z-index: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.small-logo {
+  width: 142px;
+  height: 142px;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.small-logo_reservation {
+  top: -225px;
+  right: -125px;
+}
+
+.small-logo_see-menu {
+  z-index: 10;
+  left: 145px;
+  top: -32px;
+}
+
+.small-logo_about-chef {
+  right: 287px;
+  bottom: -60px;
+}
+
+.small-logo_blogs {
+  right: -218px;
+  bottom: -39px;
+}
+
+.small-logo_newsletter {
+  top: -204px;
+  left: -172px;
+}
