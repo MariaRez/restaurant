@@ -1,5 +1,6 @@
 import Aside from '../Aside/Aside';
 import Header from '../Header/Header';
+import Footer from '../Footer/Footer';
 import './RestaurantHome.css';
 
 function RestaurantHome() {
@@ -7,6 +8,7 @@ function RestaurantHome() {
     <>
       <Header />
       <Aside />
+      <Footer />
     </>
   );
 }
