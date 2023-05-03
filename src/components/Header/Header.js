@@ -1,19 +1,12 @@
+import Navigation from '../Navigation/Navigation';
 import './Header.css';
 
 function Header() {
   return (
-    <header class="header text_size_xs additional-font" id="top">
-    <img class="logo" src="/images/Logo.svg" alt="Логотип" />
-    <nav>
-      <ul class="menu">
-        <li>Home</li>
-        <li>Pages</li>
-        <li>Contact Us</li>
-        <li>Blog</li>
-        <li>Landing</li>
-      </ul>
-    </nav>
-    <div class="header-links">
+    <header className='header text_size_xs additional-font' id='top'>
+    <img className='logo' src='../images/Logo.svg' alt='Логотип' />
+    <Navigation />
+    <div className='header-links additional-font text_size_xs large-header'>
       <p>Log in / Registration</p>
       <p>Book table</p>
     </div>

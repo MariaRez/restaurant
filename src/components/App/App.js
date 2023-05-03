@@ -5,10 +5,10 @@ import BarHome from '../BarHome/BarHome';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
        <Routes>
-        <Route exact path="/restaurant" element={<RestaurantHome />} />
-        <Route exact path="/bar" element={<BarHome />} />
+        <Route exact path='/restaurant' element={<RestaurantHome />} />
+        <Route exact path='/bar' element={<BarHome />} />
       </Routes>
     </div>
   );

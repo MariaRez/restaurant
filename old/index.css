@@ -55,12 +55,6 @@
   left: -172px;
 }
 
-.menu {
-  display: flex;
-  flex-direction: row;
-  gap: 32px;
-}
-
 .nav {
   font-weight: 400;
   position: absolute;
