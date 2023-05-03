@@ -2,6 +2,7 @@ import Preview from '../Preview/Preview';
 import About from '../About/About';
 import Reservations from '../Reservations/Reservations';
 import './Main.css';
+import SeeMenu from '../SeeMenu/SeeMenu';
 
 function Main() {
   return (
@@ -9,6 +10,7 @@ function Main() {
       <Preview />
       <About />
       <Reservations />
+      <SeeMenu />
     </main>
   );
 }
