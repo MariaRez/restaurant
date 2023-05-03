@@ -1,0 +1,40 @@
+.about {
+  width: 100%;
+  padding: 339px 0 328px;
+  background-image: url(/images/BG.png);
+  position: relative;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 254px;
+}
+
+.about-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-item-right {
+  align-items: end;
+  z-index: 1;
+}
+
+.about-item-right {
+  align-items: start;
+  position: relative;
+}
+
+.about-item-right::before {
+  content: url(/images/knife.svg);
+  position: absolute;
+  left: -180px;
+  top: -180px;
+}
+
+.about-description {
+  max-width: 523px;
+  padding-top: 24px;
+}

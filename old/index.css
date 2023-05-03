@@ -42,47 +42,6 @@
   padding: 16px;
 }
 
-.about {
-  width: 100%;
-  padding: 339px 0 328px;
-  background-image: url(/images/BG.png);
-  position: relative;
-}
-
-.about-columns {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 254px;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-}
-
-.rigth-column {
-  align-items: end;
-  z-index: 1;
-}
-
-.left-column {
-  align-items: start;
-  position: relative;
-}
-
-.left-column::before {
-  content: url(/images/knife.svg);
-  position: absolute;
-  left: -180px;
-  top: -180px;
-}
-
-.about-description {
-  max-width: 523px;
-  padding-top: 24px;
-}
-
 .see-menu {
   width: 100%;
   height: 920px;
