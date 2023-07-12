@@ -15,6 +15,306 @@
     />
   </head>
   <body>
+    <header class="header text_size_xs additional-font" id="top">
+      <img class="logo" src="/images/Logo.svg" alt="Логотип" />
+      <nav>
+        <ul class="header__menu">
+          <li>Home</li>
+          <li>Pages</li>
+          <li>Contact Us</li>
+          <li>Blog</li>
+          <li>Landing</li>
+        </ul>
+      </nav>
+      <div class="links">
+        <p>Log in / Registration</p>
+        <p>Book table</p>
+      </div>
+    </header>
+    <aside class="nav additional-font text_size_s small-header">
+      <ul class="nav-items">
+        <li class="nav-item">#Bar</li>
+        <li class="nav-item">#Gericht</li>
+      </ul>
+    </aside>
+    <!-- добавить векторные полосы на фон ресурса -->
+    <main class="main">
+      <section class="preview">
+        <div class="rigth-column">
+          <h4 class="small-header main-font text_size_m">
+            Chase the new Flavour
+          </h4>
+          <img class="small-img" src="/images/spoon.svg" alt="Ложка" />
+          <h1 class="preview-header big-header main-font text_size_xxl">
+            The key to Fine dining
+          </h1>
+          <p class="description additional-font text_size_xs">
+            Sit tellus lobortis sed senectus vivamus molestie. Condimentum
+            volutpat morbi facilisis quam scelerisque sapien. Et, penatibus
+            aliquam amet tellus
+          </p>
+          <button class="button text_size_xs main-font">Explore Menu</button>
+        </div>
+        <img
+          class="main-pic"
+          src="/images/main-pic.png"
+          alt="Главное изображение"
+        />
+        <a class="scroll-images scroll-images_to_menu" href="#menu"
+          ><img src="/images/Scroll.svg" alt="Скролл к меню"
+        /></a>
+      </section>
+      <section class="about">
+        <img
+          class="logo-back"
+          src="/images/G.svg"
+          alt="Первая буква логотипа"
+        />
+        <ul class="about-columns">
+          <li class="column rigth-column">
+            <h2 class="text_size_xl main-font medium-header">About Us</h2>
+            <img
+              class="small-img small-img_rigth"
+              src="/images/spoon.svg"
+              alt="Ложка"
+            />
+            <p class="text_size_xs description about-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis
+              pharetra adipiscing ultrices vulputate posuere tristique. In sed
+              odio nec aliquet eu proin mauris et.
+            </p>
+            <button class="button text_size_xs main-font">Know More</button>
+          </li>
+          <li class="column left-column">
+            <h2 class="text_size_xl main-font medium-header">Our History</h2>
+            <img class="small-img" src="/images/spoon.svg" alt="Ложка" />
+            <p class="text_size_xs description about-description">
+              Adipiscing tempus ullamcorper lobortis odio tellus arcu volutpat.
+              Risus placerat morbi volutpat habitasse interdum mi aliquam In sed
+              odio nec aliquet.
+            </p>
+            <button class="button text_size_xs main-font">Know More</button>
+          </li>
+        </ul>
+      </section>
+      <section class="reservations">
+        <img
+          class="small-logo small-logo_reservation"
+          src="/images/small-logo.svg"
+          alt="Небольшой логотип"
+        />
+        <h4 class="small-header main-font text_size_m">Reservations</h4>
+        <img class="small-img" src="/images/spoon.svg" alt="Ложка" />
+        <h2 class="reservation-header medium-header main-font text_size_xl">
+          Book A Table
+        </h2>
+        <form class="form">
+          <div class="booking">
+            <select class="booking-elements">
+              <option>1 person</option>
+              <option>2 persons</option>
+              <option>3 persons</option>
+              <option>4 persons</option>
+              <option>5 persons</option>
+              <option>6 persons</option>
+              <option>7 persons</option>
+              <option>8 persons</option>
+            </select>
+            <select class="booking-elements">
+              <option>Today</option>
+              <option>Tomorrow</option>
+            </select>
+            <select class="booking-elements">
+              <option>11:00 AM</option>
+              <option>12:00 AM</option>
+              <option>13:00 AM</option>
+              <option>14:00 AM</option>
+              <option>15:00 AM</option>
+              <option>16:00 AM</option>
+              <option>17:00 AM</option>
+              <option>18:00 AM</option>
+              <option>19:00 AM</option>
+              <option>20:00 AM</option>
+              <option>21:00 AM</option>
+            </select>
+          </div>
+          <button class="button text_size_xs main-font">Book Now</button>
+        </form>
+      </section>
+      <section class="see-menu" id="menu">
+        <img
+          class="small-logo small-logo_see-menu"
+          src="/images/small-logo.svg"
+          alt="Небольшой логотип"
+        />
+        <div class="overlay"></div>
+        <ul class="see-menu__list main-font medium-header">
+          <li class="see-menu__item text_size_xl">Bar Menu</li>
+          <li class="see-menu__item text_size_xl">Food Menu</li>
+          <li class="see-menu__item text_size_xl">Desserts Menu</li>
+        </ul>
+      </section>
+      <section class="special">
+        <h4 class="small-header main-font text_size_m">
+          Menu That Fits You Palatte
+        </h4>
+        <img class="small-img" src="/images/spoon.svg" alt="Ложка" />
+        <h2 class="special-header medium-header main-font text_size_xl">
+          Today&#39;s Special
+        </h2>
+        <div class="specials">
+          <div class="specials-description">
+            <h3
+              class="specials-description-header text_size_l large-header main-font"
+            >
+              Wine & Beer
+            </h3>
+            <ul>
+              <li>
+                <div class="position">
+                  <h4 class="main-font big-header text_size_m position-header">
+                    Chapel Hill Shiraz
+                  </h4>
+                  <div class="position-line"></div>
+                  <span class="main-font text_size_m small-header">$56</span>
+                  <span
+                    class="additional-font text_size_xs description position-description"
+                    >AU | Bottle</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="position">
+                  <h4 class="main-font big-header text_size_m position-header">
+                    Catena Malbec
+                  </h4>
+                  <div class="position-line"></div>
+                  <span class="main-font text_size_m small-header">$59</span>
+                  <span
+                    class="additional-font text_size_xs description position-description"
+                    >AU | Bottle</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="position">
+                  <h4 class="main-font big-header text_size_m position-header">
+                    La Vieille Rosé
+                  </h4>
+                  <div class="position-line"></div>
+                  <span class="main-font text_size_m small-header">$44</span>
+                  <span
+                    class="additional-font text_size_xs description position-description"
+                    >FR | 750 ml</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="position">
+                  <h4 class="main-font big-header text_size_m position-header">
+                    Rhino Pale Ale
+                  </h4>
+                  <div class="position-line"></div>
+                  <span class="main-font text_size_m small-header">$31</span>
+                  <span
+                    class="additional-font text_size_xs description position-description"
+                    >CA | 750 ml</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="position">
+                  <h4 class="main-font big-header text_size_m position-header">
+                    Irish Guinness
+                  </h4>
+                  <div class="position-line"></div>
+                  <span class="main-font text_size_m small-header">$26</span>
+                  <span
+                    class="additional-font text_size_xs description position-description"
+                    >IE | 750 ml</span
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+          <img src="/images/cocktail.png" alt="Коктейли" />
+          <div class="specials-description">
+            <h3
+              class="specials-description-header text_size_l large-header main-font"
+            >
+              Cocktails
+            </h3>
+            <ul>
+              <li>
+                <div class="position">
+                  <h4 class="main-font big-header text_size_m position-header">
+                    Aperol Spritz
+                  </h4>
+                  <div class="position-line"></div>
+                  <span class="main-font text_size_m small-header">$20</span>
+                  <span
+                    class="additional-font text_size_xs description position-description"
+                    >Aperol | Villa Marchesi prosecco | soda | 30ml</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="position">
+                  <h4 class="main-font big-header text_size_m position-header">
+                    Dark 'N' Stormy
+                  </h4>
+                  <div class="position-line"></div>
+                  <span class="main-font text_size_m small-header">$16</span>
+                  <span
+                    class="additional-font text_size_xs description position-description"
+                    >Dark rum | Ginger beer | Slice of lime.</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="position">
+                  <h4 class="main-font big-header text_size_m position-header">
+                    Daiquiri
+                  </h4>
+                  <div class="position-line"></div>
+                  <span class="main-font text_size_m small-header">$10</span>
+                  <span
+                    class="additional-font text_size_xs description position-description"
+                    >Rum | Citrus juice | Sugar</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="position">
+                  <h4 class="main-font big-header text_size_m position-header">
+                    Old Fashioned
+                  </h4>
+                  <div class="position-line"></div>
+                  <span class="main-font text_size_m small-header">$31</span>
+                  <span
+                    class="additional-font text_size_xs description position-description"
+                    >Bourbon | Brown sugar | Angostura Bitters</span
+                  >
+                </div>
+              </li>
+              <li>
+                <div class="position">
+                  <h4 class="main-font big-header text_size_m position-header">
+                    Negroni
+                  </h4>
+                  <div class="position-line"></div>
+                  <span class="main-font text_size_m small-header">$26</span>
+                  <span
+                    class="additional-font text_size_xs description position-description"
+                    >Gin | Sweet Vermouth | Campari | Orange garnish</span
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <button class="button text_size_xs main-font">View More</button>
+      </section>
       <section class="about-chef">
         <img
           class="small-logo small-logo_about-chef"
@@ -430,5 +730,48 @@
           ><img src="/images/top.svg" alt="Скролл к верху страницы"
         /></a>
       </section>
+    </main>
+    <footer class="footer">
+      <h4 class="main-font text_size_sm small-description">Contact Us</h4>
+      <img class="big-logo" src="/images/big-logo.svg" alt="Большой логотип" />
+      <h4 class="main-font text_size_sm small-description">Working Hours</h4>
+      <ul
+        class="footer-info additional-font text_size_xs description no-bottom"
+      >
+        <li class="footer-info-first">9 W 53rd St, New York, NY 10019, USA</li>
+        <li>+1 212-344-1230</li>
+        <li>+1 212-555-1230</li>
+      </ul>
+      <ul class="social-media-links">
+        <li class="additional-font text_size_xs description no-bottom">
+          "The best way to find yourself is to lose yourself in the service of
+          others.”
+        </li>
+        <li><img class="small-img" src="/images/spoon.svg" alt="Ложка" /></li>
+        <li>
+          <ul class="social-media-items">
+            <li class="social-media-item">
+              <img src="/images/fb.svg" alt="Ссылка на наш фэйсбук" />
+            </li>
+            <li class="social-media-item">
+              <img src="/images/tw.svg" alt="Ссылка на наш твиттер" />
+            </li>
+            <li class="social-media-item">
+              <img src="/images/inst.svg" alt="Ссылка на наш инстаграм" />
+            </li>
+          </ul>
+        </li>
+      </ul>
+      <ul
+        class="additional-font text_size_xs description no-bottom footer-info"
+      >
+        <li class="footer-hours">Monday-Friday: 08:00 am-12:00 am</li>
+        <li class="footer-hours">Saturday-Sunday: 07:00 am-11:00 pm</li>
+      </ul>
+      <span
+        class="footer-copyrigth additional-font text_size_xs description no-bottom"
+        >2021 Gerícht. All Rights reserved.</span
+      >
+    </footer>
   </body>
 </html>
