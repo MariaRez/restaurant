@@ -1,0 +1,7 @@
+.footer__info {
+  text-align: center;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

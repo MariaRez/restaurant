@@ -1,0 +1,11 @@
+.footer {
+  margin: 0 auto;
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: 1fr 438px 1fr;
+  grid-template-rows: 83px 143px 230px;
+  column-gap: 126px;
+  row-gap: 24px;
+  justify-items: center;
+  align-items: end;
+}

@@ -1,5 +1,20 @@
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__menu/header__menu.css);
+@import url(./blocks/header/__links/header__links.css);
+
+@import url(./blocks/logo/logo.css);
+
+@import url(./blocks/footer/footer.css);
+@import url(./blocks/footer/__logo/footer__logo.css);
+@import url(./blocks/footer/__info/footer__info.css);
+@import url(./blocks/footer/__info-item/footer__info-item.css);
+@import url(./blocks/footer/__info-item/_address/footer__info-item_address.css);
+@import url(./blocks/footer/__social-media-container/footer__social-media-container.css);
+
+@import url(./blocks/footer/__copyrigth/footer__copyrigth.css);
+
+@import url(./blocks/social-media/social-media.css);
+@import url(./blocks/social-media/__item/social-media__item.css);
 /* изначальные стили прописаны для размера экрана 1920px */
 :root {
   --main-color: #040404;
@@ -163,22 +178,6 @@ ul {
 
 /* индивидуальные стили элементов */
 
-.logo {
-  width: 199px;
-  height: 57px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.big-logo {
-  width: 289px;
-  height: 83px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .logo-back {
   position: absolute;
   width: 391px;
@@ -224,13 +223,6 @@ ul {
 .small-logo_newsletter {
   top: -204px;
   left: -172px;
-}
-
-.links {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 100px;
 }
 
 .nav {
@@ -802,57 +794,4 @@ ul {
 .button-newsletter:hover {
   background-color: var(--main-text-color);
   color: var(--main-color);
-}
-
-.footer {
-  margin: 0 auto;
-  max-width: 1300px;
-  display: grid;
-  grid-template-columns: 1fr 438px 1fr;
-  grid-template-rows: 83px 143px 230px;
-  column-gap: 126px;
-  row-gap: 24px;
-  justify-items: center;
-  align-items: end;
-}
-
-.footer-info {
-  text-align: center;
-  align-self: flex-start;
-}
-
-.footer-info-first {
-  margin-bottom: 8px;
-}
-
-.social-media-links {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  row-gap: 10px;
-}
-
-.social-media-items {
-  display: flex;
-  column-gap: 19px;
-}
-
-.social-media-item {
-  width: 20px;
-  height: 20px;
-}
-
-.footer-hours {
-  max-width: 158px;
-}
-
-.footer-hours:last-of-type {
-  margin-top: 8px;
-}
-
-.footer-copyrigth {
-  grid-column: 2 / 3;
-  grid-row: 3 /4;
-  padding: 58px 0 144px;
 }

@@ -1,0 +1,7 @@
+.footer__info-item {
+  max-width: 158px;
+}
+
+.footer__info-item:first-of-type {
+  margin-bottom: 8px;
+}
