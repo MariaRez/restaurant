@@ -1,0 +1,9 @@
+.aside {
+  font-weight: 400;
+  position: absolute;
+  top: 400px;
+  left: 120px;
+  width: 161px;
+  transform: rotate(-90deg);
+  z-index: 10;
+}

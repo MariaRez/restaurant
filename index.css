@@ -4,6 +4,11 @@
 
 @import url(./blocks/logo/logo.css);
 
+@import url(./blocks/aside/aside.css);
+
+@import url(./blocks/nav/nav.css);
+@import url(./blocks/nav/__item/nav__item.css);
+
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__logo/footer__logo.css);
 @import url(./blocks/footer/__info/footer__info.css);
@@ -223,25 +228,6 @@ ul {
 .small-logo_newsletter {
   top: -204px;
   left: -172px;
-}
-
-.nav {
-  font-weight: 400;
-  position: absolute;
-  top: 400px;
-  left: 120px;
-  width: 161px;
-  transform: rotate(-90deg);
-  z-index: 10;
-}
-
-.nav-items {
-  display: flex;
-  gap: 40px;
-}
-
-.nav-item {
-  cursor: pointer;
 }
 
 .main {
