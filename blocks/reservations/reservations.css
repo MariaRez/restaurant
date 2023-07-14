@@ -1,0 +1,10 @@
+.reservations {
+  margin: 205px 0 184px;
+  padding: 48px 32px;
+  width: 72%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border: 1px solid rgba(220, 202, 135, 0.2);
+}

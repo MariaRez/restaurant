@@ -1,0 +1,9 @@
+.booking__items {
+  width: 412px;
+  height: 60px;
+  background-color: var(--button-color);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+  appearance: none;
+  padding: 16px;
+}

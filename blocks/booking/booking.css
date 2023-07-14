@@ -1,0 +1,8 @@
+.booking {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 64px;
+}
