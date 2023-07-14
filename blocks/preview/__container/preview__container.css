@@ -1,0 +1,5 @@
+.preview__container {
+  align-items: end;
+  z-index: 1;
+  min-width: 455px;
+}

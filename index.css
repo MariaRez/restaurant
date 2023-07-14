@@ -16,8 +16,17 @@
 @import url(./blocks/main/main.css);
 
 @import url(./blocks/preview/preview.css);
+@import url(./blocks/preview/__container/preview__container.css);
 @import url(./blocks/preview/__header/preview__header.css);
 @import url(./blocks/preview/__image/preview__image.css);
+
+@import url(./blocks/about/about.css);
+@import url(./blocks/about/__background/about__background.css);
+@import url(./blocks/about/__container/about__container.css);
+@import url(./blocks/about/__container-item/about__container-item.css);
+@import url(./blocks/about/__container-item/_position/about__container-item_position_right.css);
+@import url(./blocks/about/__container-item/_position/about__container-item_position_left.css);
+@import url(./blocks/about/__description/about__description.css);
 
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__logo/footer__logo.css);
@@ -193,18 +202,6 @@ ul {
 
 /* индивидуальные стили элементов */
 
-.logo-back {
-  position: absolute;
-  width: 391px;
-  height: 415px;
-  left: 40%;
-  bottom: 280px;
-  z-index: 0;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
 .small-logo {
   width: 142px;
   height: 142px;
@@ -240,11 +237,7 @@ ul {
   left: -172px;
 }
 
-/* пока остается тут тк применяется к нескольким секциям сразу*/
-.rigth-column {
-  min-width: 455px;
-}
-
+/* логотип ложечки - переименовать и потом переместить */
 .small-img {
   width: 40px;
   margin: 8px 0;
@@ -256,7 +249,9 @@ ul {
 .small-img_rigth {
   transform: rotate(-180deg);
 }
+/* -- */
 
+/* общий стиль для всех кнопок */
 .button {
   border: none;
   background-color: var(--heading-color);
@@ -312,47 +307,6 @@ ul {
   color: var(--text-color);
   appearance: none;
   padding: 16px;
-}
-
-.about {
-  width: 100%;
-  padding: 339px 0 328px;
-  background-image: url(/images/BG.png);
-  position: relative;
-}
-
-.about-columns {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 254px;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-}
-
-.rigth-column {
-  align-items: end;
-  z-index: 1;
-}
-
-.left-column {
-  align-items: start;
-  position: relative;
-}
-
-.left-column::before {
-  content: url(/images/knife.svg);
-  position: absolute;
-  left: -180px;
-  top: -180px;
-}
-
-.about-description {
-  max-width: 523px;
-  padding-top: 24px;
 }
 
 .see-menu {

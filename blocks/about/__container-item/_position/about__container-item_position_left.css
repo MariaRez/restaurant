@@ -1,0 +1,11 @@
+.about__container-item_position_left {
+  align-items: start;
+  position: relative;
+}
+
+.about__container-item_position_left::before {
+  content: url(/images/knife.svg);
+  position: absolute;
+  left: -180px;
+  top: -180px;
+}
