@@ -1,0 +1,7 @@
+.see-menu__list-item {
+  cursor: pointer;
+  text-decoration: none;
+  transition: text-decoration-line 1s ease-in;
+  z-index: 10;
+  color: var(--main-text-color);
+}

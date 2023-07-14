@@ -1,0 +1,9 @@
+.see-menu {
+  width: 100%;
+  height: 920px;
+  background-image: url(/images/glass.png);
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
