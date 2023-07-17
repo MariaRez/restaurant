@@ -54,6 +54,14 @@
 @import url(./blocks/position/__line/position__line.css);
 @import url(./blocks/position/__description/position__description.css);
 
+@import url(./blocks/about-chef/about-chef.css);
+@import url(./blocks/about-chef/__image/about-chef__image.css);
+@import url(./blocks/about-chef/__container/about-chef__container.css);
+@import url(./blocks/about-chef/__text/about-chef__text.css);
+@import url(./blocks/about-chef/__name/about-chef__name.css);
+@import url(./blocks/about-chef/__post/about-chef__post.css);
+@import url(./blocks/about-chef/__signature/about-chef__signature.css);
+
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__logo/footer__logo.css);
 @import url(./blocks/footer/__info/footer__info.css);
@@ -292,48 +300,6 @@ ul {
   color: var(--main-color);
 }
 /* -- */
-
-.about-chef {
-  margin: 152px 0;
-  padding: 128px 310px;
-  box-sizing: border-box;
-  width: 100%;
-  background-image: url(/images/BG.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  column-gap: 96px;
-  position: relative;
-}
-
-.chef-image {
-  width: 586px;
-}
-
-.chef-name {
-  font-weight: 400;
-}
-
-.about-chef-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.about-chef-description {
-  max-width: 570px;
-  margin: 64px 0;
-}
-
-.chef-description {
-  margin: 8px 0 64px;
-}
-
-.chef-sing {
-  width: 235px;
-}
 
 .customers {
   display: flex;
