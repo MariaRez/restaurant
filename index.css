@@ -43,6 +43,17 @@
 @import url(./blocks/see-menu/__list/see-menu__list.css);
 @import url(./blocks/see-menu/__list-item/see-menu__list-item.css);
 
+@import url(./blocks/special/special.css);
+@import url(./blocks/special/__header/special__header.css);
+@import url(./blocks/special/__items/special__items.css);
+@import url(./blocks/special/__item/special__item.css);
+@import url(./blocks/special/__item-header/special__item-header.css);
+
+@import url(./blocks/position/position.css);
+@import url(./blocks/position/__header/position__header.css);
+@import url(./blocks/position/__line/position__line.css);
+@import url(./blocks/position/__description/position__description.css);
+
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__logo/footer__logo.css);
 @import url(./blocks/footer/__info/footer__info.css);
@@ -281,62 +292,6 @@ ul {
   color: var(--main-color);
 }
 /* -- */
-
-.special {
-  margin-top: 152px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.special-header {
-  margin-bottom: 64px;
-}
-
-.specials {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  text-align: center;
-  height: 659px;
-  max-width: 1300px;
-  column-gap: 32px;
-  margin-bottom: 65px;
-}
-
-.specials-description {
-  width: 412px;
-}
-
-.specials-description-header {
-  margin-bottom: 48px;
-}
-
-.position {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  column-gap: 32px;
-  row-gap: 8px;
-  flex-wrap: wrap;
-}
-
-.position-header {
-  width: 192px;
-  text-align: start;
-}
-
-.position-line {
-  background-color: var(--main-text-color);
-  height: 1px;
-  width: 119px;
-}
-
-.position-description {
-  margin-bottom: 41.5px;
-}
 
 .about-chef {
   margin: 152px 0;
