@@ -1,0 +1,9 @@
+.our-laurels__container {
+  margin-top: 64px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 32px;
+  row-gap: 64px;
+}

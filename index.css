@@ -71,6 +71,15 @@
 @import url(./blocks/customers/__item-text/customers__item-text.css);
 @import url(./blocks/customers/__item-name/customers__item-name.css);
 
+@import url(./blocks/our-laurels/our-laurels.css);
+@import url(./blocks/our-laurels/__text/our-laurels__text.css);
+@import url(./blocks/our-laurels/__image/our-laurels__image.css);
+@import url(./blocks/our-laurels/__container/our-laurels__container.css);
+
+@import url(./blocks/award/award.css);
+@import url(./blocks/award/__image/award__image.css);
+@import url(./blocks/award/__description/award__description.css);
+
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__logo/footer__logo.css);
 @import url(./blocks/footer/__info/footer__info.css);
@@ -309,51 +318,6 @@ ul {
   color: var(--main-color);
 }
 /* -- */
-
-.our-laurels {
-  box-sizing: border-box;
-  width: 100%;
-  padding: 128px 310px 226px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.our-laurels-description {
-  min-width: 634px;
-  padding: 120px 0;
-}
-
-.our-laurels-main-img {
-  width: 555px;
-  height: 691px;
-}
-
-.awards {
-  margin-top: 64px;
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  column-gap: 32px;
-  row-gap: 64px;
-}
-
-.awards-item {
-  width: 301px;
-  display: flex;
-  flex-direction: row;
-  column-gap: 32px;
-}
-
-.awards-item-image {
-  width: 79px;
-  height: 79px;
-}
-
-.awards-description {
-  margin-top: 8px;
-}
 
 .blogs {
   display: flex;

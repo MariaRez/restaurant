@@ -1,0 +1,8 @@
+.our-laurels {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 128px 310px 226px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
