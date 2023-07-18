@@ -1,0 +1,9 @@
+.blogs__container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 32px;
+  row-gap: 32px;
+  max-width: 1300px;
+  margin-bottom: 64px;
+}

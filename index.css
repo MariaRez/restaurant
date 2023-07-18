@@ -80,6 +80,15 @@
 @import url(./blocks/award/__image/award__image.css);
 @import url(./blocks/award/__description/award__description.css);
 
+@import url(./blocks/blogs/blogs.css);
+@import url(./blocks/blogs/__container/blogs__container.css);
+
+@import url(./blocks/article/article.css);
+@import url(./blocks/article/__image/article__image.css);
+@import url(./blocks/article/__sing/article__sing.css);
+@import url(./blocks/article/__header/article__header.css);
+@import url(./blocks/article/__link/article__link.css);
+
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__logo/footer__logo.css);
 @import url(./blocks/footer/__info/footer__info.css);
@@ -318,54 +327,6 @@ ul {
   color: var(--main-color);
 }
 /* -- */
-
-.blogs {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
-.blogs-items {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  column-gap: 32px;
-  row-gap: 32px;
-  max-width: 1300px;
-  margin-bottom: 64px;
-}
-
-.blogs-item {
-  max-width: 412px;
-}
-
-.blogs-item-img {
-  width: 412px;
-  height: 430px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.blogs-item-sing {
-  display: flex;
-  justify-content: space-between;
-  margin: 24px 0 32px;
-}
-
-.blogs-item-header {
-  margin-bottom: 32px;
-}
-
-.blogs-item-link {
-  text-transform: none;
-  cursor: pointer;
-}
-
-.blogs-item-link:hover {
-  color: var(--main-color);
-}
 
 .photo-gallery {
   box-sizing: border-box;
