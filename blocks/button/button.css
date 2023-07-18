@@ -1,0 +1,12 @@
+.button {
+  border: none;
+  background-color: var(--heading-color);
+  width: 157px;
+  height: 44px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--main-text-color);
+  color: var(--main-color);
+}

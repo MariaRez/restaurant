@@ -1,8 +1,25 @@
+/* сброс стилей */
+@import url(./vendor/reset.css);
+
+@import url(./blocks/body/body.css);
+
+@import url(./blocks/button/button.css);
+
+@import url(./blocks/spoon/spoon.css);
+@import url(./blocks/spoon/_reflected/spoon_reflected.css);
+
 @import url(./blocks/header/header.css);
 @import url(./blocks/header/__menu/header__menu.css);
 @import url(./blocks/header/__links/header__links.css);
 
 @import url(./blocks/logo/logo.css);
+
+@import url(./blocks/small-logo/small-logo.css);
+@import url(./blocks/small-logo/_place/small-logo_place_about-chef.css);
+@import url(./blocks/small-logo/_place/small-logo_place_blogs.css);
+@import url(./blocks/small-logo/_place/small-logo_place_newsletter.css);
+@import url(./blocks/small-logo/_place/small-logo_place_reservation.css);
+@import url(./blocks/small-logo/_place/small-logo_place_see-menu.css);
 
 @import url(./blocks/scroll-images/scroll-images.css);
 @import url(./blocks/scroll-images/_to/scroll-images_to_menu.css);
@@ -81,6 +98,7 @@
 @import url(./blocks/award/__description/award__description.css);
 
 @import url(./blocks/blogs/blogs.css);
+@import url(./blocks/blogs/__header/blogs__header.css);
 @import url(./blocks/blogs/__container/blogs__container.css);
 
 @import url(./blocks/article/article.css);
@@ -114,7 +132,7 @@
 
 @import url(./blocks/social-media/social-media.css);
 @import url(./blocks/social-media/__item/social-media__item.css);
-/* изначальные стили прописаны для размера экрана 1920px */
+
 :root {
   --main-color: #040404;
   --main-text-color: #ffffff;
@@ -124,34 +142,12 @@
   --border-color: #f5efdb;
 }
 
-body {
-  background-color: var(--main-color);
-  position: relative;
-}
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-button {
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  list-style: none;
-}
-
 /* шрифты google */
+/* основной шрифт */
 .main-font {
   font-family: "Cormorant Upright", serif;
 }
-
+/* дополнительный шрифт */
 .additional-font {
   font-family: "Open Sans", sans-serif;
 }
@@ -258,86 +254,3 @@ ul {
   letter-spacing: 0.04em;
   color: var(--text-color);
 }
-
-.italic-description::before {
-  content: url(/images/quotes.svg);
-  width: 47px;
-  height: 40px;
-}
-
-/* подчеркнутые снизу элементы */
-
-.blogs-item-header,
-.see-menu__list-item:hover,
-.nav__item:hover {
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-thickness: 3px;
-}
-
-/* маленькое лого - выделить и сделать нормально по БЭМ */
-.small-logo {
-  width: 142px;
-  height: 142px;
-  position: absolute;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.small-logo_reservation {
-  top: -225px;
-  right: -125px;
-}
-
-.small-logo_see-menu {
-  z-index: 10;
-  left: 145px;
-  top: -32px;
-}
-
-.small-logo_about-chef {
-  right: 287px;
-  bottom: -60px;
-}
-
-.small-logo_blogs {
-  right: -218px;
-  bottom: -39px;
-}
-
-.small-logo_newsletter {
-  top: -204px;
-  left: -172px;
-}
-
-/* -- */
-
-/* логотип ложечки - переименовать и потом переместить */
-.small-img {
-  width: 40px;
-  margin: 8px 0;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.small-img_rigth {
-  transform: rotate(-180deg);
-}
-/* -- */
-
-/* общий стиль для всех кнопок */
-.button {
-  border: none;
-  background-color: var(--heading-color);
-  width: 157px;
-  height: 44px;
-  cursor: pointer;
-}
-
-.button:hover {
-  background-color: var(--main-text-color);
-  color: var(--main-color);
-}
-/* -- */

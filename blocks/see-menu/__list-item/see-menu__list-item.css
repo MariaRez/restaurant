@@ -5,3 +5,9 @@
   z-index: 10;
   color: var(--main-text-color);
 }
+
+.see-menu__list-item:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
+}

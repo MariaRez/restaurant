@@ -3,6 +3,9 @@
 }
 
 .customers__item-text::before {
+  content: url(/images/quotes.svg);
+  width: 47px;
+  height: 40px;
   position: absolute;
   left: -63px;
   bottom: -4px;

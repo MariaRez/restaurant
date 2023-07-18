@@ -1,3 +1,9 @@
 .nav__item {
   cursor: pointer;
 }
+
+.nav__item:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
+}
