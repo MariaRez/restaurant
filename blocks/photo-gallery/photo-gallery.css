@@ -1,0 +1,9 @@
+.photo-gallery {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 282px 0px 0px 310px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 64px;
+}

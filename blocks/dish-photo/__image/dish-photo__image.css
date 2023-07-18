@@ -1,0 +1,3 @@
+.dish-photo__image:hover + .dish-photo__overlay {
+  visibility: visible;
+}

@@ -89,6 +89,15 @@
 @import url(./blocks/article/__header/article__header.css);
 @import url(./blocks/article/__link/article__link.css);
 
+@import url(./blocks/photo-gallery/photo-gallery.css);
+@import url(./blocks/photo-gallery/__text/photo-gallery__text.css);
+@import url(./blocks/photo-gallery/__images/photo-gallery__images.css);
+
+@import url(./blocks/dish-photo/dish-photo.css);
+@import url(./blocks/dish-photo/__image/dish-photo__image.css);
+@import url(./blocks/dish-photo/__overlay/dish-photo__overlay.css);
+@import url(./blocks/dish-photo/__overlay-image/dish-photo__overlay-image.css);
+
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__logo/footer__logo.css);
 @import url(./blocks/footer/__info/footer__info.css);
@@ -327,76 +336,6 @@ ul {
   color: var(--main-color);
 }
 /* -- */
-
-.photo-gallery {
-  box-sizing: border-box;
-  width: 100%;
-  padding: 282px 0px 0px 310px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  column-gap: 64px;
-}
-
-.photo-gallery-description {
-  width: 25%;
-  min-width: 491px;
-}
-
-.photo-gallery-items {
-  display: flex;
-  column-gap: 32px;
-  flex-wrap: nowrap;
-  overflow: hidden;
-}
-
-.photo-gallery-item {
-  width: 301px;
-  height: 447px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  box-sizing: border-box;
-  border: 2px solid rgba(220, 202, 135, 0.2);
-  position: relative;
-}
-
-.photo-gallery-overlay {
-  width: 301px;
-  height: 447px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: linear-gradient(
-      207.55deg,
-      rgba(0, 0, 0, 0.75) 1.5%,
-      rgba(0, 0, 0, 0.64) 98.62%
-    ),
-    linear-gradient(0deg, rgba(220, 202, 135, 0.2), rgba(220, 202, 135, 0.2));
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-sizing: border-box;
-  border: 2px solid rgba(220, 202, 135, 0.2);
-  visibility: hidden;
-  cursor: pointer;
-}
-
-.photo-gallery-item-photo:hover + .photo-gallery-overlay {
-  visibility: visible;
-}
-
-.photo-gallery-overlay:hover {
-  visibility: visible;
-}
-
-.photo-gallery-overlay-logo {
-  width: 43.33px;
-  height: 43.33px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
 .newsletter {
   margin: 241px 0 128px;

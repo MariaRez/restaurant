@@ -1,0 +1,10 @@
+.dish-photo {
+  width: 301px;
+  height: 447px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  border: 2px solid rgba(220, 202, 135, 0.2);
+  position: relative;
+}
