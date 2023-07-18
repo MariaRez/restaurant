@@ -1,0 +1,9 @@
+.newsletter__input {
+  box-sizing: border-box;
+  width: 635px;
+  height: 60px;
+  margin-right: 32px;
+  padding: 16px 19px;
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+}
