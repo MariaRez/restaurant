@@ -4,7 +4,7 @@
 }
 
 .about-chef__text::before {
-  content: url(/images/quotes.svg);
+  content: url(/images/quotes-logo.svg);
   width: 47px;
   height: 40px;
 }
