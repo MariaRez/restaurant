@@ -1,5 +1,5 @@
 .preview {
-  max-width: 1920px;
+  width: 100%;
   box-sizing: border-box;
   padding: 95px 310px 0;
   display: flex;
