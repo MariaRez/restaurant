@@ -1,0 +1,19 @@
+.scroll-images {
+  position: absolute;
+  z-index: 10;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.scroll-images_to_top {
+  right: -158px;
+  bottom: -49px;
+}
+
+.scroll-images_to_menu {
+  right: 120px;
+  bottom: -64px;
+  width: 61px;
+  height: 113px;
+}

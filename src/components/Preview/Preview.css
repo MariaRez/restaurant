@@ -1,0 +1,26 @@
+.preview {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 95px 310px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 180px;
+}
+
+.preview__container {
+  align-items: end;
+  z-index: 1;
+  min-width: 455px;
+}
+
+.preview__header {
+  margin-bottom: 32px;
+}
+
+.preview__image {
+  width: 667px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

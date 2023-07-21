@@ -22,7 +22,7 @@ function Footer() {
           others.”
         </li>
         <li>
-          <Spoon />
+          <Spoon/>
         </li>
         <li>
          <SocialMedia />

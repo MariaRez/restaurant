@@ -1,3 +1,8 @@
+.nav {
+  display: flex;
+  gap: 40px;
+}
+
 .nav__item {
   cursor: pointer;
 }
