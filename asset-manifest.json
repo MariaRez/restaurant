@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8a645d5e.css",
+    "main.js": "/static/js/main.5f1c7001.js",
+    "static/js/787.aab8bd84.chunk.js": "/static/js/787.aab8bd84.chunk.js",
+    "static/media/knife-logo.svg": "/static/media/knife-logo.3d8b860243c45bda46cc.svg",
+    "static/media/background.png": "/static/media/background.d494a78ff0db947b5f81.png",
+    "static/media/preview.png": "/static/media/preview.7b8a94a387680a252ff4.png",
+    "static/media/logo.svg": "/static/media/logo.a2dd6688e9f430adeaada38132deaee3.svg",
+    "static/media/big-logo.svg": "/static/media/big-logo.0c9c8f3ff5762b1bf866ff8da92d8da7.svg",
+    "static/media/scroll-logo.svg": "/static/media/scroll-logo.bcff7eb3936a0a7b60664c6da2c994d0.svg",
+    "static/media/twitter-logo.svg": "/static/media/twitter-logo.a2622285457098980391176ecd5b7cfa.svg",
+    "static/media/instagram-logo.svg": "/static/media/instagram-logo.92c25f4aea8793df95cb5ad7dabe807a.svg",
+    "static/media/background-with-first-letter.svg": "/static/media/background-with-first-letter.6a98913c74bb960a091163d961fb65d0.svg",
+    "index.html": "/index.html",
+    "static/media/spoon-logo.svg": "/static/media/spoon-logo.d079f43fbcf509908d3865293080795a.svg",
+    "static/media/facebook-logo.svg": "/static/media/facebook-logo.70912413606f55a2996d338857ad1866.svg",
+    "main.8a645d5e.css.map": "/static/css/main.8a645d5e.css.map",
+    "main.5f1c7001.js.map": "/static/js/main.5f1c7001.js.map",
+    "787.aab8bd84.chunk.js.map": "/static/js/787.aab8bd84.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a645d5e.css",
+    "static/js/main.5f1c7001.js"
+  ]
+}
