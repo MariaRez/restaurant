@@ -1,0 +1,55 @@
+.about {
+  width: 100%;
+  padding: 339px 0 328px;
+  background-image: url(/src/images/background.png);
+  position: relative;
+}
+
+.about__background {
+  position: absolute;
+  width: 391px;
+  height: 415px;
+  left: 40%;
+  bottom: 280px;
+  z-index: 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 254px;
+}
+
+.about__container-item {
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.about__container-item_position_right {
+  align-items: end;
+  z-index: 1;
+  min-width: 455px;
+  text-align: end;
+}
+
+.about__container-item_position_left {
+  align-items: start;
+  position: relative;
+}
+
+.about__container-item_position_left::before {
+  content: url(/src/images/knife-logo.svg);
+  position: absolute;
+  left: -180px;
+  top: -180px;
+}
+
+.about__description {
+  max-width: 523px;
+  padding-top: 24px;
+}
