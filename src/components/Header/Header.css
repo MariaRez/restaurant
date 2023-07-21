@@ -9,3 +9,16 @@
   align-items: center;
   color: var(--main-text-color);
 }
+
+.header__menu {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+.header__links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 100px;
+}

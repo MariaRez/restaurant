@@ -1,7 +1,8 @@
-.body {
+.app {
+  width: 100vw;
+  min-width: 320px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: var(--main-color);
 }

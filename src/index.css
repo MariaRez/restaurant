@@ -1,0 +1,131 @@
+@import url(./vendor/reset.css);
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-color);
+}
+
+:root {
+  --main-color: #040404;
+  --main-text-color: #ffffff;
+  --heading-color: #dcca87;
+  --text-color: #aaaaaa;
+  --button-color: #0c0b08;
+  --border-color: #f5efdb;
+}
+
+/* шрифты google */
+/* основной шрифт */
+.main-font {
+  font-family: "Cormorant Upright", serif;
+}
+/* дополнительный шрифт */
+.additional-font {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* размеры для текстовых элементов */
+.text_size_xs {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.text_size_s {
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.text_size_m {
+  font-size: 23px;
+  line-height: 30px;
+}
+
+.text_size_sm {
+  font-size: 32px;
+  line-height: 42px;
+}
+
+.text_size_l {
+  font-size: 44px;
+  line-height: 57px;
+}
+
+.text_size_xl {
+  font-size: 64px;
+  line-height: 83px;
+}
+
+.text_size_xxl {
+  font-size: 90px;
+  line-height: 117px;
+}
+
+/* стили для разного текста */
+.big-header {
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--heading-color);
+}
+
+.large-header {
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--main-text-color);
+}
+
+.medium-header {
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: capitalize;
+  color: var(--heading-color);
+}
+
+.small-header {
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--main-text-color);
+}
+
+.description {
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--text-color);
+  margin-bottom: 32px;
+}
+
+.no-bottom {
+  margin-bottom: 0;
+}
+
+.medium-description {
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: var(--heading-color);
+}
+
+.small-description {
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--border-color);
+}
+
+.italic-description {
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.04em;
+  color: var(--text-color);
+}
