@@ -1,7 +1,11 @@
-.footer__logo {
-  width: 289px;
-  height: 83px;
+.spoon {
+  width: 40px;
+  margin: 8px 0;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.spoon_reflected {
+  transform: rotate(-180deg);
 }

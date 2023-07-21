@@ -1,11 +1,4 @@
-/* сброс стилей */
-@import url(./vendor/reset.css);
-
 @import url(./blocks/button/button.css);
-
-@import url(./blocks/spoon/spoon.css);
-@import url(./blocks/spoon/_reflected/spoon_reflected.css);
-
 
 @import url(./blocks/small-logo/small-logo.css);
 @import url(./blocks/small-logo/_place/small-logo_place_about-chef.css);
@@ -113,15 +106,3 @@
 @import url(./blocks/newsletter/__text/newsletter__text.css);
 @import url(./blocks/newsletter/__input/newsletter__input.css);
 @import url(./blocks/newsletter/__button/newsletter__button.css);
-
-@import url(./blocks/footer/footer.css);
-@import url(./blocks/footer/__logo/footer__logo.css);
-@import url(./blocks/footer/__info/footer__info.css);
-@import url(./blocks/footer/__info-item/footer__info-item.css);
-@import url(./blocks/footer/__info-item/_address/footer__info-item_address.css);
-@import url(./blocks/footer/__social-media-container/footer__social-media-container.css);
-
-@import url(./blocks/footer/__copyrigth/footer__copyrigth.css);
-
-@import url(./blocks/social-media/social-media.css);
-@import url(./blocks/social-media/__item/social-media__item.css);

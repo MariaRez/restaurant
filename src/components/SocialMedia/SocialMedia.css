@@ -1,0 +1,9 @@
+.social-media {
+  display: flex;
+  column-gap: 19px;
+}
+
+.social-media__item {
+  width: 20px;
+  height: 20px;
+}
