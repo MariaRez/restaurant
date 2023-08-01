@@ -8,3 +8,7 @@
   position: relative;
   border: 1px solid rgba(220, 202, 135, 0.2);
 }
+
+.reservation__header {
+  margin-bottom: 64px;
+}

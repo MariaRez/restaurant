@@ -1,0 +1,34 @@
+.small-logo {
+  width: 142px;
+  height: 142px;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.small-logo_place_about-chef {
+  right: 287px;
+  bottom: -60px;
+}
+
+.small-logo_place_blogs {
+  right: -218px;
+  bottom: -39px;
+}
+
+.small-logo_place_newsletter {
+  top: -204px;
+  left: -172px;
+}
+
+.small-logo_place_reservation {
+  top: -225px;
+  right: -125px;
+}
+
+.small-logo_place_see-menu {
+  z-index: 10;
+  left: 145px;
+  top: -32px;
+}

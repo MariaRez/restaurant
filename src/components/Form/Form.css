@@ -1,0 +1,12 @@
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.form_direction_column {
+  flex-direction: column;
+}
+
+.form_direction_row {
+  flex-direction: row;
+}
