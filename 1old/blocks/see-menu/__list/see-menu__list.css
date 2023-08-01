@@ -1,9 +1,0 @@
-.see-menu__list {
-  width: 525px;
-  height: 100%;
-  box-sizing: border-box;
-  padding: 261px 0 262px 145px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}

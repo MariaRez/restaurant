@@ -1,0 +1,44 @@
+.see-menu {
+  width: 100%;
+  height: 920px;
+  background-image: url(/src/images/see-menu.png);
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.see-menu__overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--button-color);
+  opacity: 0.4;
+  z-index: 0;
+}
+
+.see-menu__list {
+  width: 525px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 261px 0 262px 145px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.see-menu__list-item {
+  cursor: pointer;
+  text-decoration: none;
+  transition: text-decoration-line 1s ease-in;
+  z-index: 10;
+  color: var(--main-text-color);
+}
+
+.see-menu__list-item:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
+}
