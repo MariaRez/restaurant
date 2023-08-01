@@ -1,14 +1,3 @@
-@import url(./blocks/special/special.css);
-@import url(./blocks/special/__header/special__header.css);
-@import url(./blocks/special/__items/special__items.css);
-@import url(./blocks/special/__item/special__item.css);
-@import url(./blocks/special/__item-header/special__item-header.css);
-
-@import url(./blocks/position/position.css);
-@import url(./blocks/position/__header/position__header.css);
-@import url(./blocks/position/__line/position__line.css);
-@import url(./blocks/position/__description/position__description.css);
-
 @import url(./blocks/about-chef/about-chef.css);
 @import url(./blocks/about-chef/__image/about-chef__image.css);
 @import url(./blocks/about-chef/__container/about-chef__container.css);

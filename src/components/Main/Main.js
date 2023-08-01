@@ -4,6 +4,7 @@ import Aside from "../Aside/Aside";
 import About from "../About/About";
 import Reservations from "../Reservations/Reservations";
 import SeeMenu from "../SeeMenu/SeeMenu";
+import Special from "../Special/Special";
 
 function Main() {
   return (
@@ -13,6 +14,7 @@ function Main() {
       <About />
       <Reservations />
       <SeeMenu />
+      <Special />
     </main>
   );
 }

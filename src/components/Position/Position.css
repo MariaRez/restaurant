@@ -1,0 +1,24 @@
+.position {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 32px;
+  row-gap: 8px;
+  flex-wrap: wrap;
+}
+
+.position__header {
+  width: 192px;
+  text-align: start;
+}
+
+.position__line {
+  background-color: var(--main-text-color);
+  height: 1px;
+  width: 119px;
+}
+
+.position__description {
+  margin-bottom: 41.5px;
+}
