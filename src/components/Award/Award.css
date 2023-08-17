@@ -1,0 +1,15 @@
+.award {
+    width: 301px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 32px;
+  }
+
+  .award__image {
+    width: 79px;
+    height: 79px;
+  }
+
+  .award__description {
+    margin-top: 8px;
+  }

@@ -3,7 +3,7 @@ import videoPoster from "../../images/video-image.png";
 
 function Video() {
   return (
-    <section class="video">
+    <section className="video">
       <video
         controls
         src=""

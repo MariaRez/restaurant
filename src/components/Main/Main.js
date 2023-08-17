@@ -8,6 +8,7 @@ import Special from "../Special/Special";
 import AboutChef from "../AboutChef/AboutChef";
 import Customers from "../Customers/Customers";
 import Video from "../Video/Video";
+import OurLaurels from "../OurLaurels/OurLaurels";
 
 function Main() {
   return (
@@ -21,6 +22,7 @@ function Main() {
       <AboutChef />
       <Customers />
       <Video />
+      <OurLaurels />
     </main>
   );
 }
