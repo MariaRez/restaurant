@@ -6,6 +6,7 @@ import Reservations from "../Reservations/Reservations";
 import SeeMenu from "../SeeMenu/SeeMenu";
 import Special from "../Special/Special";
 import AboutChef from "../AboutChef/AboutChef";
+import Customers from "../Customers/Customers";
 
 function Main() {
   return (
@@ -17,6 +18,7 @@ function Main() {
       <SeeMenu />
       <Special />
       <AboutChef />
+      <Customers />
     </main>
   );
 }
