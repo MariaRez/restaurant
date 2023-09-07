@@ -1,8 +1,0 @@
-.article__link {
-  text-transform: none;
-  cursor: pointer;
-}
-
-.article__link:hover {
-  color: var(--main-text-color);
-}

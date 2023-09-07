@@ -1,9 +1,0 @@
-.article__header {
-  margin-bottom: 32px;
-}
-
-.article__header:hover {
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-thickness: 3px;
-}

@@ -9,6 +9,7 @@ import AboutChef from "../AboutChef/AboutChef";
 import Customers from "../Customers/Customers";
 import Video from "../Video/Video";
 import OurLaurels from "../OurLaurels/OurLaurels";
+import Blogs from "../Blogs/Blogs";
 
 function Main() {
   return (
@@ -23,6 +24,7 @@ function Main() {
       <Customers />
       <Video />
       <OurLaurels />
+      <Blogs />
     </main>
   );
 }
