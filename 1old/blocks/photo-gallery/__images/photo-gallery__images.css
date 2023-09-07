@@ -1,6 +1,0 @@
-.photo-gallery__images {
-  display: flex;
-  column-gap: 32px;
-  flex-wrap: nowrap;
-  overflow: hidden;
-}

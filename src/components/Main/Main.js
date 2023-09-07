@@ -10,6 +10,7 @@ import Customers from "../Customers/Customers";
 import Video from "../Video/Video";
 import OurLaurels from "../OurLaurels/OurLaurels";
 import Blogs from "../Blogs/Blogs";
+import PhotoGallery from "../PhotoGallery/PhotoGallery";
 
 function Main() {
   return (
@@ -25,6 +26,7 @@ function Main() {
       <Video />
       <OurLaurels />
       <Blogs />
+      <PhotoGallery />
     </main>
   );
 }
