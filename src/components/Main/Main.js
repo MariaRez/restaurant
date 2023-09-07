@@ -11,6 +11,7 @@ import Video from "../Video/Video";
 import OurLaurels from "../OurLaurels/OurLaurels";
 import Blogs from "../Blogs/Blogs";
 import PhotoGallery from "../PhotoGallery/PhotoGallery";
+import Newsletter from "../Newsletter/Newsletter";
 
 function Main() {
   return (
@@ -27,6 +28,7 @@ function Main() {
       <OurLaurels />
       <Blogs />
       <PhotoGallery />
+      <Newsletter />
     </main>
   );
 }

@@ -12,7 +12,7 @@ function Reservations() {
       <h2 className="reservation__header medium-header main-font text_size_xl">
         Book A Table
       </h2>
-      <Form classNameForm="form_direction_column"/>
+      <Form classNameForm="form_direction_column" isNewsletter={false}/>
     </section>
   );
 }

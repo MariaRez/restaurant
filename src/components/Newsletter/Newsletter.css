@@ -8,3 +8,8 @@
   position: relative;
   border: 1px solid rgba(220, 202, 135, 0.2);
 }
+
+.newsletter__text {
+  font-weight: 400;
+  margin: 24px 0 64px;
+}
