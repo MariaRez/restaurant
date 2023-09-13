@@ -10,6 +10,11 @@
   color: var(--main-text-color);
 }
 
+.header__icons {
+  width: 57px;
+  display: none;
+}
+
 .header__menu {
   display: flex;
   flex-direction: row;
@@ -21,4 +26,23 @@
   flex-direction: row;
   justify-content: space-between;
   gap: 100px;
+}
+
+@media (max-width: 1280px) {
+  .header__icons {
+    display: block;
+    cursor: pointer;
+  }
+
+  .header__icons:last-of-type {
+    padding-left: 10px;
+  }
+
+  .header__menu {
+    display: none;
+  }
+  
+  .header__links {
+    display: none;
+  }
 }

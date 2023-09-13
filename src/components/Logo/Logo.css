@@ -5,3 +5,10 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+@media (max-width: 1280px) {
+  .logo {
+    margin-right: auto;
+  }
+}
+
