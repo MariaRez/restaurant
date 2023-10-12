@@ -61,11 +61,21 @@
     flex-direction: column;
     gap: 7px;
     position: absolute;
-    top: 70px;
+    top: 50px;
     left: 0;
   }
 
   .header__links_visible {
     display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 25px 60px;
+  }
+
+  .header__icons {
+    width: 40px;
   }
 }

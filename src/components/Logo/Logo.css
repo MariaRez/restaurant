@@ -12,3 +12,18 @@
   }
 }
 
+@media (max-width: 768px) {
+  .logo {
+    width: 140px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    content: url("../../images/logoSmall.svg");
+    width: auto;
+    height: 35px;
+  }
+}
+
