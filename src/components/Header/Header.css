@@ -10,6 +10,10 @@
   color: var(--main-text-color);
 }
 
+.header__container {
+  position: relative;
+}
+
 .header__icons {
   width: 57px;
   display: none;
@@ -40,9 +44,28 @@
 
   .header__menu {
     display: none;
+    flex-direction: column;
+    gap: 7px;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: -70px;
+  }
+
+  .header__menu_visible {
+    display: flex;
   }
   
   .header__links {
     display: none;
+    flex-direction: column;
+    gap: 7px;
+    position: absolute;
+    top: 70px;
+    left: 0;
+  }
+
+  .header__links_visible {
+    display: flex;
   }
 }
