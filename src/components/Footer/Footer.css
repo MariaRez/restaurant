@@ -1,5 +1,4 @@
 .footer {
-  margin: 0 auto;
   max-width: 1300px;
   display: grid;
   grid-template-columns: 1fr 438px 1fr;
@@ -50,4 +49,12 @@
   grid-column: 2 / 3;
   grid-row: 3 /4;
   padding: 58px 0 144px;
+}
+
+
+@media (max-width: 1440px) {
+  .footer {
+    max-width: 1148px;
+    column-gap: 50px;
+  }
 }
